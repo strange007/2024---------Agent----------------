@@ -13,5 +13,7 @@ We conduct basic functional tests on the designed agents to verify the system.
 We believe that our work has made a contribution to the research of multi-agent systems based on multiple large language models. Our framework and implementations can be used as a reference for future research.
 
 # 基于Agent和多种大语言模型的人工智能体
+## 背景
 随着人工智能技术的飞速发展尤其是近些年大型语言模型（Large Language Model，LLM）的火热，基于多种大语言模型的多智能体系统（Multi-Agent System，MAS）已经成为了研究的热点。基于多种大语言模型的智能体系统设计涉及到的主要技术包括多智能体协同技术、大型语言模型的微调和使用、提示词工程等。目前市面上有许多流行的大语言模型，仅国内就有通义千问系列、智谱的ChatGLM系列、百度的文心一言等。
+## 项目内容
 本文对首先对智能体涉及到的相关原理包括自然语言处理技术、提示词工程等进行了简要讲解以及对在进行系统设计时会使用到的工具进行了简要介绍，并借助这些理论和工具通过使用两种模型先进行了单智能体系统的设计接着在这两个单智能体的基础上进行了两种基于多种大语言模型的多智能体系统的搭建分别是多智能体协助回答系统和多智能体对话生成系统，前者用于通过多智能体协助回答的方式来提升智能体对问题处理的速度和稳定性，后者用于通过多个智能体相互对话来观察多个智能体之间的沟通演化。在最后部分则对设计的智能体进行了基本的功能测试来验证系统。
